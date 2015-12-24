@@ -11,6 +11,7 @@ public class Main {
         int[][] input = new int[9][9];
         if(args == null || !(args.length == 81)) {
             System.out.println("Bad input!");
+            return;
         }
 
         int currentRow = 0;
